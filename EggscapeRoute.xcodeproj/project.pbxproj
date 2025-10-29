@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72B6275E2EB2C05300DF7102 /* EggscapeRouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B6275C2EB2C05300DF7102 /* EggscapeRouteApp.swift */; };
+		72B6275F2EB2C05300DF7102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72B6275B2EB2C05300DF7102 /* Assets.xcassets */; };
+		72B6276A2EB2C07D00DF7102 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627622EB2C07D00DF7102 /* Color+Extensions.swift */; };
+		72B6276B2EB2C07D00DF7102 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627612EB2C07D00DF7102 /* View+Extensions.swift */; };
+		72B6276C2EB2C07D00DF7102 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627632EB2C07D00DF7102 /* ShapeStyle+Extensions.swift */; };
+		72B6276D2EB2C07D00DF7102 /* ERHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627652EB2C07D00DF7102 /* ERHomeWebView.swift */; };
+		72B6276E2EB2C07D00DF7102 /* ERLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B627672EB2C07D00DF7102 /* ERLaunchView.swift */; };
+		D9229453532DB4F3CC3C32B6 /* Pods_EggscapeRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B940C57BFFACBA94FE3A49A5 /* Pods_EggscapeRoute.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		72B6274C2EB2C01100DF7102 /* EggscapeRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggscapeRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72B6275B2EB2C05300DF7102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72B6275C2EB2C05300DF7102 /* EggscapeRouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggscapeRouteApp.swift; sourceTree = "<group>"; };
+		72B627612EB2C07D00DF7102 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		72B627622EB2C07D00DF7102 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		72B627632EB2C07D00DF7102 /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		72B627652EB2C07D00DF7102 /* ERHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERHomeWebView.swift; sourceTree = "<group>"; };
+		72B627672EB2C07D00DF7102 /* ERLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERLaunchView.swift; sourceTree = "<group>"; };
+		72B6276F2EB2C0F100DF7102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B13AD1BDEE4936408FC5B1D7 /* Pods-EggscapeRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggscapeRoute.release.xcconfig"; path = "Target Support Files/Pods-EggscapeRoute/Pods-EggscapeRoute.release.xcconfig"; sourceTree = "<group>"; };
+		B940C57BFFACBA94FE3A49A5 /* Pods_EggscapeRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EggscapeRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F154B29D85613E7B432654 /* Pods-EggscapeRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggscapeRoute.debug.xcconfig"; path = "Target Support Files/Pods-EggscapeRoute/Pods-EggscapeRoute.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72B627492EB2C01100DF7102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9229453532DB4F3CC3C32B6 /* Pods_EggscapeRoute.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A31D83BD0E052D562E30300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B940C57BFFACBA94FE3A49A5 /* Pods_EggscapeRoute.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B20E8DBDA19500E7EACC1CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2F154B29D85613E7B432654 /* Pods-EggscapeRoute.debug.xcconfig */,
+				B13AD1BDEE4936408FC5B1D7 /* Pods-EggscapeRoute.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72B627432EB2C01100DF7102 = {
+			isa = PBXGroup;
+			children = (
+				72B6275D2EB2C05300DF7102 /* EggscapeRoute */,
+				72B6274D2EB2C01100DF7102 /* Products */,
+				1B20E8DBDA19500E7EACC1CC /* Pods */,
+				1A31D83BD0E052D562E30300 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72B6274D2EB2C01100DF7102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72B6274C2EB2C01100DF7102 /* EggscapeRoute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72B6275D2EB2C05300DF7102 /* EggscapeRoute */ = {
+			isa = PBXGroup;
+			children = (
+				72B6276F2EB2C0F100DF7102 /* Info.plist */,
+				72B627642EB2C07D00DF7102 /* Extensions */,
+				72B627692EB2C07D00DF7102 /* Screens */,
+				72B627602EB2C05700DF7102 /* App */,
+				72B6275B2EB2C05300DF7102 /* Assets.xcassets */,
+			);
+			path = EggscapeRoute;
+			sourceTree = "<group>";
+		};
+		72B627602EB2C05700DF7102 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				72B6275C2EB2C05300DF7102 /* EggscapeRouteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		72B627642EB2C07D00DF7102 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				72B627612EB2C07D00DF7102 /* View+Extensions.swift */,
+				72B627622EB2C07D00DF7102 /* Color+Extensions.swift */,
+				72B627632EB2C07D00DF7102 /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		72B627662EB2C07D00DF7102 /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B627652EB2C07D00DF7102 /* ERHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		72B627682EB2C07D00DF7102 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72B627672EB2C07D00DF7102 /* ERLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72B627692EB2C07D00DF7102 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				72B627662EB2C07D00DF7102 /* HomeWebScreen */,
+				72B627682EB2C07D00DF7102 /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72B6274B2EB2C01100DF7102 /* EggscapeRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72B627582EB2C01300DF7102 /* Build configuration list for PBXNativeTarget "EggscapeRoute" */;
+			buildPhases = (
+				E9A90BA89914904316FBEB51 /* [CP] Check Pods Manifest.lock */,
+				72B627482EB2C01100DF7102 /* Sources */,
+				72B627492EB2C01100DF7102 /* Frameworks */,
+				72B6274A2EB2C01100DF7102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggscapeRoute;
+			productName = EggscapeRoute;
+			productReference = 72B6274C2EB2C01100DF7102 /* EggscapeRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72B627442EB2C01100DF7102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					72B6274B2EB2C01100DF7102 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 72B627472EB2C01100DF7102 /* Build configuration list for PBXProject "EggscapeRoute" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72B627432EB2C01100DF7102;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 72B6274D2EB2C01100DF7102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72B6274B2EB2C01100DF7102 /* EggscapeRoute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72B6274A2EB2C01100DF7102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B6275F2EB2C05300DF7102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9A90BA89914904316FBEB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EggscapeRoute-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B627482EB2C01100DF7102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B6275E2EB2C05300DF7102 /* EggscapeRouteApp.swift in Sources */,
+				72B6276A2EB2C07D00DF7102 /* Color+Extensions.swift in Sources */,
+				72B6276B2EB2C07D00DF7102 /* View+Extensions.swift in Sources */,
+				72B6276C2EB2C07D00DF7102 /* ShapeStyle+Extensions.swift in Sources */,
+				72B6276D2EB2C07D00DF7102 /* ERHomeWebView.swift in Sources */,
+				72B6276E2EB2C07D00DF7102 /* ERLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72B627562EB2C01300DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72B627572EB2C01300DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		72B627592EB2C01300DF7102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F154B29D85613E7B432654 /* Pods-EggscapeRoute.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggscapeRoute/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggscape Route";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggscaperoute.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		72B6275A2EB2C01300DF7102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13AD1BDEE4936408FC5B1D7 /* Pods-EggscapeRoute.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EggscapeRoute/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Eggscape Route";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eggscaperoute.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72B627472EB2C01100DF7102 /* Build configuration list for PBXProject "EggscapeRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627562EB2C01300DF7102 /* Debug */,
+				72B627572EB2C01300DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72B627582EB2C01300DF7102 /* Build configuration list for PBXNativeTarget "EggscapeRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B627592EB2C01300DF7102 /* Debug */,
+				72B6275A2EB2C01300DF7102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72B627442EB2C01100DF7102 /* Project object */;
+}
